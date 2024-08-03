@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Apps and Games Intro</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(to bottom, #000, #555);
+            color: #fff;
+            font-family: Arial, sans-serif;
+            overflow: auto;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: center;
+            padding: 20px;
+        }
+        .game {
+            width: 350px;
+            text-align: center;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+        }
+        .logo {
+            width: 180px;
+            height: 180px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0 auto 20px auto;
+        }
+        .title {
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-shadow: 3px 3px 8px #000;
+        }
+        .button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            color: #fff;
+            background-color: #f39c12; /* Orange color */
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            text-transform: uppercase;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .button:hover {
+            background-color: #e67e22; /* Darker orange */
+            transform: scale(1.05);
+        }
+        .button:active {
+            background-color: #d35400; /* Even darker orange */
+            transform: scale(0.98);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Game/App Sections -->
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/2e/Free_Fire_logo.png');"></div>
+            <div class="title">Free Fire</div>
+            <button class="button">Start Game</button>
+        </div>
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Roblox_logo_2017.svg/1024px-Roblox_logo_2017.svg.png');"></div>
+            <div class="title">Roblox</div>
+            <button class="button">Start Game</button>
+        </div>
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Minecraft_Logo.png/800px-Minecraft_Logo.png');"></div>
+            <div class="title">Minecraft</div>
+            <button class="button">Start Game</button>
+        </div>
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Battlegrounds_Mobile_India_Logo.png/800px-Battlegrounds_Mobile_India_Logo.png');"></div>
+            <div class="title">BGMI</div>
+            <button class="button">Start Game</button>
+        </div>
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/47/Fortnite_Logo.png');"></div>
+            <div class="title">Fortnite</div>
+            <button class="button">Start Game</button>
+        </div>
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ec/Apex_Legends_Logo.png');"></div>
+            <div class="title">Apex Legends</div>
+            <button class="button">Start Game</button>
+        </div>
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6e/Call_of_Duty_Logo.png');"></div>
+            <div class="title">Call of Duty</div>
+            <button class="button">Start Game</button>
+        </div>
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/54/Among_Us_Logo.png');"></div>
+            <div class="title">Among Us</div>
+            <button class="button">Start Game</button>
+        </div>
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/0b/PUBG_logo.png');"></div>
+            <div class="title">PUBG</div>
+            <button class="button">Start Game</button>
+        </div>
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/63/Clash_of_Clans_Logo.png');"></div>
+            <div class="title">Clash of Clans</div>
+            <button class="button">Start Game</button>
+        </div>
+        <div class="game">
+            <div class="logo" style="background-image: url('https://upload.wikimedia.org/wikipedia/commons/6/6d/Clash_Royale_Logo.png');"></div>
+            <div class="title">Clash Royale</div>
+            <button class="button">Start Game</button>
+        </div>
+    </div>
+</body>
+</html>
